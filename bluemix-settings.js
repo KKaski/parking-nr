@@ -49,6 +49,10 @@ var settings = module.exports = {
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
 
+    //Kimmo
+    //This is required to add jimp functionality to the code
+    functionGlobalContext: { Jimp : require("jimp")},
+
     functionGlobalContext: { },
 
     storageModule: require("./couchstorage")
