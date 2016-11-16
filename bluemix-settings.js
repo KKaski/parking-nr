@@ -53,8 +53,6 @@ var settings = module.exports = {
     //This is required to add jimp functionality to the code
     functionGlobalContext: { Jimp : require("jimp")},
 
-    functionGlobalContext: { },
-
     storageModule: require("./couchstorage")
 }
 
